@@ -6,26 +6,26 @@
 class Actionbook < Formula
   desc "CLI for Actionbook - run AI actions from your terminal"
   homepage "https://actionbook.dev"
-  version "1.2.0"
+  version "1.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/actionbook/actionbook/releases/download/actionbook-cli-v1.2.0/actionbook-darwin-arm64"
-      sha256 "8ce7232dc5c9dd0041759d2985418fc82450d97977f28e774f82a6acf91b466c"
+      url "https://github.com/actionbook/actionbook/releases/download/actionbook-cli-v1.3.0/actionbook-darwin-arm64"
+      sha256 "db2baaed7b9bb6881a8ca86ab74dfc0e4c6d4d84875bf08dd0763dd7f8133435"
     else
-      url "https://github.com/actionbook/actionbook/releases/download/actionbook-cli-v1.2.0/actionbook-darwin-x64"
-      sha256 "3eb9eb71c13f236eb689723b0e44c28b75e2a5f1c226b8b1f4ce39359a79769c"
+      url "https://github.com/actionbook/actionbook/releases/download/actionbook-cli-v1.3.0/actionbook-darwin-x64"
+      sha256 "5bca998951b0fed461383a81f3e461370fdcdcae5ce194dfa0e0dd99ad775867"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/actionbook/actionbook/releases/download/actionbook-cli-v1.2.0/actionbook-linux-arm64"
-      sha256 "b709b175fc15c2a55a5982dfb38f858c5be26ed08448b490adb6ccf0f6df262a"
+      url "https://github.com/actionbook/actionbook/releases/download/actionbook-cli-v1.3.0/actionbook-linux-arm64"
+      sha256 "9febeb0d734942f9f4f2e1523a02d34464c57a5fcf32654ec20c5c01b4648887"
     else
-      url "https://github.com/actionbook/actionbook/releases/download/actionbook-cli-v1.2.0/actionbook-linux-x64"
-      sha256 "3ab70e3275fdbee1ca0707124d670936f1a59f3d378ed55ea39894f6aaa02c97"
+      url "https://github.com/actionbook/actionbook/releases/download/actionbook-cli-v1.3.0/actionbook-linux-x64"
+      sha256 "0bddd3597c28ee20ade0167e3a837c1507bca8ace8d7fa61fee7c355d8372c5a"
     end
   end
 
